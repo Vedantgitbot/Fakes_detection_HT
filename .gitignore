@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Generated outputs (regeneratable by running the pipeline)
+outputs/features.csv
+outputs/predictions.csv
+outputs/model_artifacts.joblib
+
+# Dataset images (ambiguous sourcing/licensing on the fake set — see README)
+data/real_images/*
+data/fake_images/*
+!data/real_images/.gitkeep
+!data/fake_images/.gitkeep
+
+# OS/editor cruft
+.DS_Store
+.vscode/data/
+outputs/
