@@ -24,3 +24,9 @@ data/fake_images/*
 .DS_Store
 .vscode/data/
 outputs/
+.DS_Store
+.vscode/
+real_vs_fake/
+sample_train/
+.DS_Store
+.vscode/
